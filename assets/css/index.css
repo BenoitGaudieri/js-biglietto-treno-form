@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#biglietto {
+    text-align: center;
+    border: 3px solid #00c000;
+}
+
+.hide {
+    opacity: 0;
+}
+
+.show {
+    opacity: 1;
+}
+
+#nome-passeggero {
+    font-style: italic;
+    color: #ff9100;
+    text-transform: uppercase;
+}
+
+.offerta {
+    background-color: #ccc;
+    font-weight: 700;
+    margin: 20px 0 0;
+}
+
+.p__table--style th,
+.p__table--style td {
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.p--red {
+    color: #ff4800;
+}
