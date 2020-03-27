@@ -12,7 +12,6 @@ var bottoneGenera = document.getElementById("bottoneGenera");
 bottoneGenera.addEventListener("click", function() {
     // Get input values
     var nome = document.getElementById("nome").value;
-
     var kmDaPercorrere = document.getElementById("km").value;
 
     var fasciaEta = document.getElementById("fascia-eta").value;
