@@ -22,9 +22,26 @@ h3 {
     align-items: center;
 }
 
-#biglietto {
+.box {
+    border-radius: 45px;
+    background-color: #f0ece1;
+    height: 600px;
+    width: 400px;
+    padding: 20px 25px;
+}
+
+.box h1 {
     text-align: center;
-    border: 3px solid #00c000;
+    font-size: 40px;
+}
+
+.dati-input {
+    margin: 20px 0;
+}
+
+.title {
+    font-size: 28px;
+    margin: 10px 0;
 }
 
 .hide {
@@ -35,14 +52,20 @@ h3 {
     opacity: 1;
 }
 
+.nome h2 {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
 #nome-passeggero {
     font-style: italic;
     color: #ff9100;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 .offerta {
-    background-color: #ccc;
+    background-color: #f0f0f0;
     font-weight: 700;
     margin: 20px 0 0;
 }
