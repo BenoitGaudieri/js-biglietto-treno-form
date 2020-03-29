@@ -46,7 +46,7 @@ bottoneGenera.addEventListener("click", function() {
     document.getElementById("offerta-applicata").className = "p--red";
     document.getElementById("carrozza").innerHTML = numCarrozza;
     document.getElementById("codice-cp").innerHTML = codiceCp;
-    document.getElementById("costo").innerHTML = costoBiglietto;
+    document.getElementById("costo").innerHTML = costoBiglietto + "€";
 
     // Show ticket
     var showTicket = document.getElementById("biglietto");
